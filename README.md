@@ -1,12 +1,10 @@
 <div align='center'>
 <img src="https://github.com/L01010000/SmartBasket/blob/main/logo.png" width="250px" />
  <h1>Smart Զամբյուղ (Basket)</h1>    
-</div>
 
-<p align="center">
   <img src="https://raw.githubusercontent.com/L01010000/SmartBasket/main/poc.gif" alt="SmartBasket PoC">
-</p>
 
+</div>
 
 This is my latest project — **Smart Basket**.
 
