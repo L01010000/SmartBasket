@@ -27,6 +27,10 @@ I developed everything by myself — including the **sound effects** and **logos
 
 <img src="https://github.com/L01010000/SmartBasket/blob/main/imagesvids/work.png" width="900px" />
 
+# POC
+
+https://github.com/L01010000/SmartBasket/blob/main/poc.gif
+
 # Barcode Detection
 
 <img src="https://github.com/L01010000/SmartBasket/blob/main/imagesvids/Picture3.png" width="900px" />
