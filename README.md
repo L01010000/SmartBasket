@@ -3,7 +3,10 @@
  <h1>Smart Զամբյուղ (Basket)</h1>    
 </div>
 
-![SmartBasket PoC](https://raw.githubusercontent.com/L01010000/SmartBasket/main/poc.gif) 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/L01010000/SmartBasket/main/poc.gif" alt="SmartBasket PoC">
+</p>
+
 
 This is my latest project — **Smart Basket**.
 
