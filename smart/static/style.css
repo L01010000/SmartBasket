@@ -1,0 +1,120 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0d1117;
+    color: #39ff14;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #39ff14;
+    margin: 20px 0;
+}
+
+.cart-container {
+    max-width: 100%;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #39ff14;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #39ff14;
+}
+
+table th {
+    color: #39ff14;
+}
+
+.total {
+    text-align: right;
+    font-size: 1.5em;
+}
+
+.delete-button {
+    color: #0d1117;
+    background: #ff4136;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.delete-button:hover {
+    background: #e33b30;
+}
+
+.pay-button-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.pay-button {
+    padding: 15px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #0d1117;
+    background: #39ff14;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    max-width: 300px;
+    width: 100%;
+}
+
+.pay-button:hover {
+    background: #32e315;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cart-container {
+        width: 100%;
+    }
+
+    table th, table td {
+        font-size: 0.9em;
+    }
+
+    .total {
+        font-size: 1.2em;
+    }
+}

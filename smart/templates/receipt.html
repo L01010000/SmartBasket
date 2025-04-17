@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #0d1117;
+            color: #39ff14;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+            box-sizing: border-box;
+            background: #0d1117;
+            border: 2px solid #39ff14;
+            border-radius: 10px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin: 10px 0;
+            color: #39ff14;
+        }
+
+        .receipt {
+            background-color: #0d1117;
+            border: 2px dashed #39ff14;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            margin: 20px 0;
+        }
+
+        .receipt-header, .receipt-footer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .receipt-details {
+            margin: 20px 0;
+        }
+
+        .receipt-details table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .receipt-details th, .receipt-details td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #39ff14;
+            color: #39ff14;
+        }
+
+        .receipt-footer {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .receipt-total {
+            margin-top: 20px;
+            text-align: right;
+        }
+
+        .receipt-total span {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #39ff14;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Receipt</h1>
+        <div class="receipt">
+            <div class="receipt-header">
+                <p>Շնորհակալություն գնումների համար!</p>
+            </div>
+            <div class="receipt-details">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in cart %}
+                        <tr>
+                            <td>{{ item['name'] }}</td>
+                            <td>{{ item['price'] }} AMD</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="receipt-total">
+                <p>Total: <span>{{ total_price }} AMD</span></p>
+            </div>
+            <div class="receipt-footer">
+                <p>Կրկին համեցեք!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

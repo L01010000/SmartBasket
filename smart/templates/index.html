@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Carriage</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" width="200px">
+        </div>
+        <h2>Ձեր Զամբյուղը</h2>
+
+        <div class="cart-container">
+            <div class="cart-items">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Անվանում</th>
+                            <th>Արժեք</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-items">
+
+                    </tbody>
+                </table>
+
+                <div class="total">
+                    <strong>Ընդհանուր: </strong><span id="total-price">$0.00</span>
+                </div>
+
+                <div class="pay-button-wrapper">
+                    <button class="pay-button" onclick="payNow()">Վճարել</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
