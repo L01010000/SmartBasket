@@ -2,9 +2,9 @@
 <img src="https://github.com/L01010000/SmartBasket/blob/main/logo.png" width="250px" />
  <h1>Smart Զամբյուղ (Basket)</h1>    
 </div>
-<br>
+
 ![SmartBasket PoC](https://raw.githubusercontent.com/L01010000/SmartBasket/main/poc.gif) 
-<br>
+
 This is my latest project — **Smart Basket**.
 
 I used a **Raspberry Pi 4**, **webcam**, **speakers**, and a **weight module**. After detecting the product's barcode, it gets checked against the database, and if the product exists, it is added to the web interface. From there, the user can pay and receive a digital receipt.
