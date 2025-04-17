@@ -19,6 +19,10 @@ I developed everything by myself — including the **sound effects** and **logos
 # The Basket
 <img src="https://github.com/L01010000/SmartBasket/blob/main/imagesvids/Picture4.png" width="900px" />
 
+# POC
+
+![SmartBasket PoC](https://raw.githubusercontent.com/L01010000/SmartBasket/main/poc.gif)
+
 # Diagram
 
 <img src="https://github.com/L01010000/SmartBasket/blob/main/imagesvids/Picture1.png" width="900px" />
