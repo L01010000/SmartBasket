@@ -3,11 +3,21 @@
  <h1>Smart Zambyux (Basket)</h1>    
 </div>
 
-<p>This is my latest project - Smart Basket. I used a raspberry pi 4, web cam, speakers and a weight module. After detecting the product's barcode, it gets checked against the database and if the product exists than it gets added in the web interface from where the user pays and gets a digital receipt. The web interface uses https for secure communication, the design is modern and intuitive. Smart Basket's purpose is to make your shopping experience better and faster. </p>
+This is my latest project — **Smart Basket**.
+
+I used a **Raspberry Pi 4**, **webcam**, **speakers**, and a **weight module**. After detecting the product's barcode, it gets checked against the database, and if the product exists, it is added to the web interface. From there, the user can pay and receive a digital receipt.
+
+The **weight module** checks whether the added product is the one that was scanned. If it detects a mismatch, an **alarm** goes off. The user can also delete a product from the web interface, and until they physically remove the item, the alarm will continue to sound.
+
+The web interface uses **HTTPS** for secure communication. The design is **modern** and **intuitive**.
+
+Smart Basket's purpose is to make your shopping experience **better and faster**.
+
+I developed everything by myself — including the **sound effects** and **logos**.
+
 
 # The Basket
 <img src="https://github.com/L01010000/SmartBasket/blob/main/imagesvids/Picture4.png" width="900px" />
-<img src="https://github.com/L01010000/SmartBasket/blob/main/imagesvids/Picture6.png" width="900px" />
 
 # Diagram
 
