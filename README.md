@@ -21,7 +21,7 @@ I developed everything by myself — including the **sound effects** and **logos
 
 # POC
 
-![SmartBasket PoC](https://raw.githubusercontent.com/L01010000/SmartBasket/main/poc.gif)
+![SmartBasket PoC](https://raw.githubusercontent.com/L01010000/SmartBasket/main/poc.gif) width="900px"
 
 # Diagram
 
