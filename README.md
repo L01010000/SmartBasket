@@ -20,19 +20,19 @@ Smart Basket's purpose is to make your shopping experience **better and faster**
 I developed everything by myself — including the **sound effects** and **logos**.
 
 
-# The Basket
+<h3>The Basket</h3>
 <img src="https://github.com/L01010000/SmartBasket/blob/main/imagesvids/Picture4.png" width="900px" />
 
-# Diagram
+<h3>Diagram</h3>
 
 <img src="https://github.com/L01010000/SmartBasket/blob/main/imagesvids/Picture1.png" width="900px" />
 
-# Web Interface
+<h3>Web Interface</h3>
 
 <img src="https://github.com/L01010000/SmartBasket/blob/main/imagesvids/work.png" width="900px" />
 
 
-# Barcode Detection
+<h3>Barcode Detection</h3>
 
 <img src="https://github.com/L01010000/SmartBasket/blob/main/imagesvids/Picture3.png" width="900px" />
 
