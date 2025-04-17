@@ -4,7 +4,9 @@
 </div>
 
 This is my latest project — **Smart Basket**.
+<br>
 ![SmartBasket PoC](https://raw.githubusercontent.com/L01010000/SmartBasket/main/poc.gif) 
+<br>
 I used a **Raspberry Pi 4**, **webcam**, **speakers**, and a **weight module**. After detecting the product's barcode, it gets checked against the database, and if the product exists, it is added to the web interface. From there, the user can pay and receive a digital receipt.
 
 The **weight module** checks whether the added product is the one that was scanned. If it detects a mismatch, an **alarm** goes off. The user can also delete a product from the web interface, and until they physically remove the item, the alarm will continue to sound.
